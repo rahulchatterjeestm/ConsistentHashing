@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsistentHashing", "ConsistentHashing\ConsistentHashing.csproj", "{149019BA-6593-4361-AC6E-4FE03D554FED}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{AB9AE827-62C9-4DE8-9382-39341F197D9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsistentHashing", "ConsistentHashing\ConsistentHashing.csproj", "{45B163A2-F7A0-4E75-8DE5-1EF6FCD75C1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{149019BA-6593-4361-AC6E-4FE03D554FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{149019BA-6593-4361-AC6E-4FE03D554FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{149019BA-6593-4361-AC6E-4FE03D554FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{149019BA-6593-4361-AC6E-4FE03D554FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B163A2-F7A0-4E75-8DE5-1EF6FCD75C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B163A2-F7A0-4E75-8DE5-1EF6FCD75C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B163A2-F7A0-4E75-8DE5-1EF6FCD75C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B163A2-F7A0-4E75-8DE5-1EF6FCD75C1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45B163A2-F7A0-4E75-8DE5-1EF6FCD75C1A} = {AB9AE827-62C9-4DE8-9382-39341F197D9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DFFD39AA-B722-4782-B05F-E294F0165FBA}
